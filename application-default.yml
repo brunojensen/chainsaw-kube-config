@@ -1,7 +1,7 @@
 app:
   foreign-service:
     account:
-      url: http://smava-account-service/v1/account
+      url: http://chainsaw-account-service/v1/account
 
 server:
   servlet:
