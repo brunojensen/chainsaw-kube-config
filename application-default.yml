@@ -1,11 +1,7 @@
 app:
   foreign-service:
     account:
-      url: http://chainsaw-account-service/v1/account
-
-server:
-  servlet:
-    context-path: /v1
+      url: http://chainsaw-account-service/account
 
 springfox:
   documentation:
