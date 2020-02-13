@@ -1,14 +1,3 @@
-app:
-  foreign-service:
-    account:
-      url: http://chainsaw-account-service/account
-
-springfox:
-  documentation:
-    swagger:
-      v2:
-        path: /swagger
-
 rest:
   security:
     issuer-uri: http://keycloak-server/auth/realms/master
